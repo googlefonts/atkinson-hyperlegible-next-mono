@@ -54,6 +54,7 @@ date = "2024-04-25 14:25:39 +0000";
 familyName = "Atkinson Hyperlegible Mono";
 featurePrefixes = (
 {
+automatic = 1;
 code = "languagesystem DFLT dflt;
 
 languagesystem latn dflt;
@@ -78,26 +79,26 @@ tag = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {
+code = "lookup ccmp_DFLT_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
 	sub i' @CombiningTopAccents by idotless;
 	sub j' @CombiningTopAccents by jdotless;
-} ccmp_Other_1;
+} ccmp_DFLT_1;
 
-lookup ccmp_Other_2 {
+lookup ccmp_Other_1 {
 	lookupflag 0;
 	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb ogonekcomb];
 	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case ogonekcomb.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
-} ccmp_Other_2;
+} ccmp_Other_1;
 
-lookup ccmp_Other_3 {
+lookup ccmp_Other_2 {
 	lookupflag 0;
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
-} ccmp_Other_3;
+} ccmp_Other_2;
 ";
 tag = ccmp;
 },
@@ -179,15 +180,15 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 796;
+value = 984;
 },
 {
 name = typoDescender;
-value = -251;
+value = -316;
 },
 {
 name = typoLineGap;
-value = 150;
+value = 0;
 },
 {
 name = winAscent;
@@ -211,15 +212,15 @@ value = 258;
 },
 {
 name = hheaAscender;
-value = 796;
+value = 984;
 },
 {
 name = hheaDescender;
-value = -161;
+value = -316;
 },
 {
 name = hheaLineGap;
-value = 200;
+value = 0;
 },
 {
 name = strikeoutSize;
@@ -349,15 +350,15 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 796;
+value = 984;
 },
 {
 name = typoDescender;
-value = -251;
+value = -316;
 },
 {
 name = typoLineGap;
-value = 150;
+value = 0;
 },
 {
 name = winAscent;
@@ -381,15 +382,15 @@ value = 258;
 },
 {
 name = hheaAscender;
-value = 796;
+value = 984;
 },
 {
 name = hheaDescender;
-value = -161;
+value = -316;
 },
 {
 name = hheaLineGap;
-value = 200;
+value = 0;
 },
 {
 name = strikeoutSize;
@@ -520,15 +521,15 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 796;
+value = 984;
 },
 {
 name = typoDescender;
-value = -251;
+value = -316;
 },
 {
 name = typoLineGap;
-value = 150;
+value = 0;
 },
 {
 name = winAscent;
@@ -552,15 +553,15 @@ value = 258;
 },
 {
 name = hheaAscender;
-value = 796;
+value = 984;
 },
 {
 name = hheaDescender;
-value = -161;
+value = -316;
 },
 {
 name = hheaLineGap;
-value = 200;
+value = 0;
 },
 {
 name = strikeoutSize;
@@ -689,15 +690,15 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 796;
+value = 984;
 },
 {
 name = typoDescender;
-value = -251;
+value = -316;
 },
 {
 name = typoLineGap;
-value = 150;
+value = 0;
 },
 {
 name = winAscent;
@@ -721,15 +722,15 @@ value = 258;
 },
 {
 name = hheaAscender;
-value = 796;
+value = 984;
 },
 {
 name = hheaDescender;
-value = -161;
+value = -316;
 },
 {
 name = hheaLineGap;
-value = 200;
+value = 0;
 },
 {
 name = strikeoutSize;
@@ -60437,7 +60438,7 @@ export = 0;
 glyphname = _Q.tail;
 kernLeft = O;
 kernRight = O;
-lastChange = "2024-11-01 12:01:51 +0000";
+lastChange = "2024-11-06 13:56:52 +0000";
 layers = (
 {
 anchors = (
@@ -60544,7 +60545,7 @@ width = 632;
 {
 export = 0;
 glyphname = _q.tail;
-lastChange = "2024-11-01 12:01:51 +0000";
+lastChange = "2024-11-06 13:56:52 +0000";
 layers = (
 {
 anchors = (
@@ -60649,7 +60650,7 @@ export = 0;
 glyphname = _ringcomb_U.case;
 kernLeft = ringcomb;
 kernRight = ringcomb;
-lastChange = "2024-11-01 12:01:51 +0000";
+lastChange = "2024-11-06 13:56:52 +0000";
 layers = (
 {
 anchors = (
@@ -60921,11 +60922,12 @@ width = 632;
 instances = (
 {
 axesValues = (
-60,
+62,
 0
 );
 instanceInterpolations = {
-"451A0C9A-5D2B-4982-995B-41594B80AF49" = 1;
+"451A0C9A-5D2B-4982-995B-41594B80AF49" = 0.98182;
+"EAC7C082-8AF0-48CD-AF1D-A26CC3CBE6D4" = 0.01818;
 };
 name = ExtraLight;
 weightClass = 200;
@@ -61004,11 +61006,12 @@ weightClass = 800;
 },
 {
 axesValues = (
-60,
+62,
 1
 );
 instanceInterpolations = {
-"E15CF202-A01D-48E4-B2F5-B7F7AA5FDF32" = 1;
+"60972605-F5BD-4F6B-BF23-CBE59F8EA585" = 0.01818;
+"E15CF202-A01D-48E4-B2F5-B7F7AA5FDF32" = 0.98182;
 };
 isItalic = 1;
 name = "ExtraLight Italic";
