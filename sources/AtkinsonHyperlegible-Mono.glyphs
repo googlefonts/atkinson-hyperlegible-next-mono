@@ -39,6 +39,15 @@ value = (
 {
 name = "Enforce Compatibility Check";
 value = 1;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Variable Font Origin";
+value = "451A0C9A-5D2B-4982-995B-41594B80AF49";
 }
 );
 date = "2024-04-25 14:25:39 +0000";
@@ -61117,7 +61126,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "© 2020, 2024 Braille Institute of America, Inc., a 501(c)(3) Charitable Organization.";
+value = "Copyright 2024 The Atkinson Hyperlegible Mono Project Authors (https://github.com/googlefonts/atkinson-hyperlegible-next-mono)";
 }
 );
 },
@@ -61139,13 +61148,13 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "Braille Institute of America, Inc. provides Atkinson Hyperlegible for use, without derivatives or alteration, to the public free of charge for all non-commercial and commercial work. No attribution required.";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
 {
 key = licenseURL;
-value = "https://www.BrailleInstitute.org/";
+value = "https://openfontlicense.org";
 },
 {
 key = manufacturers;
@@ -61158,7 +61167,7 @@ value = "Applied Design Works, Letters from Sweden";
 },
 {
 key = manufacturerURL;
-value = "https://www.BrailleInstitute.org/";
+value = "https://www.brailleinstitute.org/";
 }
 );
 settings = {
