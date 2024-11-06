@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3324";
 .formatVersion = 3;
 axes = (
 {
@@ -319,7 +319,7 @@ over = -15;
 pos = -162;
 }
 );
-name = "Light Mono 632";
+name = Light;
 stemValues = (
 48,
 48,
@@ -490,7 +490,7 @@ over = -15;
 pos = -162;
 }
 );
-name = "Light Mono Italic";
+name = "Light Italic";
 stemValues = (
 48,
 48,
@@ -659,7 +659,7 @@ over = -15;
 pos = -162;
 }
 );
-name = "ExtraBold Mono 632";
+name = ExtraBold;
 stemValues = (
 126,
 135,
@@ -829,7 +829,7 @@ over = -15;
 pos = -162;
 }
 );
-name = "ExtraBold Mono Italic";
+name = "ExtraBold Italic";
 stemValues = (
 126,
 135,
@@ -61012,6 +61012,7 @@ name = "Italic Style Linking";
 value = 1;
 }
 );
+exports = 0;
 name = Light;
 properties = (
 {
@@ -61422,7 +61423,6 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = Regular;
 name = "Bold Italic";
 weightClass = 700;
 },
