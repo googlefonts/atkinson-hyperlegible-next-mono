@@ -1,7 +1,11 @@
 sources:
   - AtkinsonHyperlegibleMono.glyphs
+  - AtkinsonHyperlegibleMono-Italic.glyphs
 familyName: "Atkinson Hyperlegible Mono"
 cleanUp: true
+axisOrder:
+  - wght
+  - ital
 stat:
   AtkinsonHyperlegibleMono[wght].ttf:
   - name: Weight
