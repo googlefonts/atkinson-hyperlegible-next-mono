@@ -77,6 +77,10 @@ value = (
 0,
 0
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2024-04-25 14:25:39 +0000";
